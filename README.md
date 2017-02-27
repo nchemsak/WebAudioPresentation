@@ -3,26 +3,14 @@ This is the sample code from a presentation on the basics of the Web Audio API.
 It was presented for the [Nashville Music Programmers](https://www.meetup.com/Nashville-Music-Programmers/events/237664579/)
  Meetup Group 2-27-2017.
 
-## Usage
-TODO: Write usage instructions
-
-## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
 ## General Info
-High-level JavaScript API for processing audio in web apps.
+* High-level JavaScript API for processing audio in web apps.
 
-Everything you need is right in your web browser!
+* Everything you need is right in your web browser!
 
-The foundation of the Web Audio API is AudioContext();
-
-Everything is created inside the AudioContext();
-
-Inside the AudioContext, you create AudioNodes and connect them together, finally connecting them all to their destination, the speakers.
+* The foundation of the Web Audio API is AudioContext();
+* Everything is created inside the AudioContext();
+* Inside the AudioContext, you create AudioNodes and connect them together, finally connecting them all to their destination, the speakers.
 
 Think of each AudioNode as different guitar pedals (reverb, delay, flanger, etc), and the arrows as the guitar cords connecting each pedal to the next.
 
@@ -51,5 +39,11 @@ Nick Chemsak
 
 2-27-2017
 
-## License
-TODO: Write license
+GITHUB
+github.com/nchemsak/WebAudioPresentation
+github.com/nchemsak/eWaveStudio
+
+CONTACT
+Email:      nchemsak@gmail.com
+Portfolio:  nchemsak.github.io
+LinkedIn:   linkedin.com/in/nick-chemsak
