@@ -39,11 +39,11 @@ Nick Chemsak
 
 2-27-2017
 
-GITHUB
-github.com/nchemsak/WebAudioPresentation
-github.com/nchemsak/eWaveStudio
+GITHUB<br>
+github.com/nchemsak/WebAudioPresentation<br>
+github.com/nchemsak/eWaveStudio<br>
 
-CONTACT
-Email:      nchemsak@gmail.com
-Portfolio:  nchemsak.github.io
+CONTACT<br>
+Email:      nchemsak@gmail.com<br>
+Portfolio:  nchemsak.github.io<br>
 LinkedIn:   linkedin.com/in/nick-chemsak
