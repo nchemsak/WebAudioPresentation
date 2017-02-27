@@ -5,7 +5,7 @@ osc.type = "triangle";
 
 let LFO = context.createOscillator();
 LFO.type = "sine";
-LFO.frequency.value = .02;
+LFO.frequency.value = .02; //The delay for a flanger effect is typically less than 20 milliseconds (.002). //To create a Chorus effect in this example, change this value to 1.5;
 
 let gain = context.createGain();
 gain.gain.value = .002;

@@ -3,15 +3,15 @@ let context = new AudioContext();
 let osc = context.createOscillator();
 osc.frequency.value = 440;
 
-let VCA = context.createGain();
-let LFO = context.createOscillator();
-LFO.frequency.value = 5;
-LFO.type = "sine";
+let gain = context.createGain();
+let LFO = context.createOscillator(); //Creates the LFO Oscillator Node
+LFO.frequency.value = 5; //Assigns a frequency (hertz)
+LFO.type = "sine"; //Assigns a wave shape
 
-LFO.connect(VCA.gain);
-osc.connect(VCA);
+LFO.connect(gain.gain); //Connects LFO to the gain’s gain param
+osc.connect(gain); //Connects Oscillator to gain
+gain.connect(context.destination); //Connects gain to speakers
 
-VCA.connect(context.destination);
 
-LFO.start();
-osc.start();
+LFO.start(); //Starts the LFO
+osc.start(); //Starts the oscillator
