@@ -23,7 +23,7 @@ BUT, one of the awesome features of the Web Audio API is that any audioNode can 
 
 Example?
 
-You can connect the output of an oscillator Node (set to a low frequency) to a GainNode’s “gain” param to control volume of another sound source.
+You can connect the output of an oscillator Node (set to a low frequency) to a GainNode’s “gain” param to control volume of another sound source...as in a Tremolo effect.
 
 ## Audio Buffer Source
 Use an XMLHttpRequest (XHR) for getting sound files.
