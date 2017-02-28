@@ -14,7 +14,7 @@ It was presented for the [Nashville Music Programmers](https://www.meetup.com/Na
 
 Think of each AudioNode as different guitar pedals (reverb, delay, flanger, etc), and the arrows as the guitar cords connecting each pedal to the next.
 
-There can be as many or as few AudioNodes as you want, this example has 3.
+There can be as many or as few AudioNodes as you want.
 
 ## Creating Effects
 Every AudioNode can connect to any other node as demonstrated in previous slides.
